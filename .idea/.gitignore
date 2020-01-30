@@ -1,0 +1,14 @@
+# Default ignored files
+/workspace.xml
+*.idea/
+*.python-version
+*DS
+*.pyc
+*.DS_Store
+*.idea
+*.csv
+/settings/*
+!settings/*.example
+.ipynb_checkpoints
+untitled*
+*.mypy_cache
