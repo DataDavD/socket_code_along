@@ -5,3 +5,31 @@ request_search = {
 }
 query = 'morpheu2222s'
 answer = request_search.get(query) or f'No match for "{query}".'
+
+# playing around with namedtuples
+
+from collections import namedtuple
+
+
+Person = namedtuple('Person', ['name', 'age'])
+
+print('type', 'of', 'person')
+print(type(Person))
+print()
+
+print('__class__', 'of', 'person')
+print(Person.__class__)
+print()
+print('__class__.__name__', 'of', 'person')
+print(Person.__class__.__name__)
+print()
+
+dd = Person('david', 42)
+
+print('__clas__', 'of', 'dd')
+print(dd.__class__)
+print()
+
+print('__clas__.__name__', 'of', 'dd')
+print(dd.__class__.__name__)
+print()
